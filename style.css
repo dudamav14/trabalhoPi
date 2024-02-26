@@ -1,0 +1,276 @@
+body {
+    background-color: rgb(40, 40, 41);
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    .texto{
+        margin: 20px;
+        text-align: center;
+        margin-left: 30px;
+        position: relative;
+    }
+}
+
+p{
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px 5.5%;
+    z-index: 10;
+}
+
+h2{
+    color: #dad733;
+}
+
+#insc{
+    border: #0cdd2f solid 5px;
+    border-radius: 10px;
+}
+
+#homep {
+    text-shadow: 1px 5px 10px #0cdd2f;
+    color: #0cdd2f;
+}
+
+.navbar {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #0cdd2f;
+    text-shadow: 1px 5px 10px #000000;
+}
+
+.navbar :hover {
+    position: static;
+    font-weight: 650;
+    color: #0cdd2f;
+    margin: 0px;
+    transition: .3s;
+}
+
+.navbar>a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-size: calc((var(--site-navigation-font-font-size-value) - 1) * 1.2vw + 1rem);
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sobre>p {
+    color: #fff;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sobre img {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.data{
+    background-color: #dad733; 
+    padding: 10px;  
+    align-items: center;
+    justify-content: center ;
+    h1{
+        color: #000000;
+        text-align: center;
+        text-shadow: none;
+    }
+}
+
+.infolocal{
+    margin:auto;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 15px;
+}
+
+
+footer {
+    background-color: #000000;
+    /* height: 470px; */
+    width: 100%;
+    position:static;
+    bottom: 0;
+    margin-top: 10px;
+    margin: 0%;
+
+    p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Poppins', sans-serif;
+        width: 300px;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.nomeLogo {
+    box-sizing: border-box;
+    margin: top 10px;
+    padding: 0;
+    color: #dad733;
+}
+
+.container {
+    width: 1380px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.agradecimento {
+    width: 25%;
+    float: left;
+}
+
+h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imagenslocal{ 
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.linha2{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagenslocal h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.fundoimg{
+    position: absolute;
+    opacity: 10%;
+    width: 100%;
+    height: 1411px;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.Item{
+    align-items: center;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    margin:auto;
+    img{
+        border-radius: 10px;
+        margin: 0%; 
+        display: block;
+    }
+    iframe{
+        border-radius: 10px;
+        display: block;
+    }
+}
+
+.Item :hover{
+    image-rendering: optimizeQuality;
+    box-shadow: #000000;
+}
+
+footer .link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+footer .link:hover {
+    position: relative;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 10px;
+}
+
+
+#fundo{
+    display: flex;
+    position:relative;
+    opacity: 10%;
+    width: 100%;
+    height: 1000px;
+    left: 0;
+    top: 0;
+}
+.caixa{
+    margin:auto;
+    box-sizing: border-box;
+    background-color: #5a5656;
+    padding: 50px;
+
+    form{
+        color: rgba(255, 255, 255, 0.5);
+        position: relative;
+    }
+    form legend{
+        color: #dad733;
+        font-weight: bold;
+        font-size:large;
+    }
+}
+
+#termosdeuso{
+    display:run-in;
+    margin: 20px;
+}
+button, button > a {
+    text-decoration: none;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    background-color:rgb(60, 60, 61) ;
+    width: 80px;
+    height: 30px;
+    margin: 2px;
+}
